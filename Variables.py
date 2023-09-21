@@ -14,6 +14,16 @@ nombre = 'Hella G'
 PI = 3.1416
 #imprimimos los valores de las variables
 
+#cadena de texto
+cadena = "esto es una cadena de texto"
+
+#imprimimos el valor de la variable cadena
+
+print(cadena)
+#remplazamos el valor de la variable cadena por otra cadena de texto
+cadena2=cadena.replace("esto","esta")
+
+print(cadena2.upper())
 print("el valor de num2 es: ",num2)
 print("el valor de num3 es: ",num3)
 print("el valor de nombre es: ",nombre)
